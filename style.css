@@ -1,0 +1,19 @@
+body {
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-weight: 300;
+  background-image: url(walter.jpg);
+  background-repeat: repeat;
+}
+#wrapper {
+  width: 960px;
+  margin: 20px auto 20px auto;
+}
+h1 {
+	border-color: teal;
+	border-style: outset;
+	color: purple;
+	/* comments is command an slash */
+}
+h4 {
+	color: teal;
+}
