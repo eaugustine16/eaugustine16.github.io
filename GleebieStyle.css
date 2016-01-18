@@ -1,0 +1,45 @@
+.navbar-default {
+    background-color: black;
+}
+.jumbotron {
+    padding-top: 40px;
+    padding-bottom: 200px;
+    margin-bottom: 20px;
+    color: inherit;
+    background-image: url(onlineshop.gif);
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+	font-family: 'Lobster', cursive;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+#howitworks {
+	text-align: center;
+}
+#step1 {
+	padding-top: 20px;
+	background-color: #FE9A2E;
+}
+#step2 {
+	padding-top: 20px;
+	background-color: teal;
+}
+#step3 {
+	padding-top: 20px;
+	background-color: #FE642E;
+}
+#text{
+	background-color: #F6E3CE;
+	opacity: 0.8;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: gray;
+    background-color: black;
+}
