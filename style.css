@@ -1,45 +1,54 @@
-.navbar-default {
-    background-color: black;
+body {
+	padding-top: 20px;
+	background-image: url(background.png);
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 18px;
+}
+.container-fluid {
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar {
+    border-radius: 0px;
+}
+.container-fluid .jumbotron {
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 20px;
+	border-color: white;
 }
 .jumbotron {
-    padding-top: 40px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     margin-bottom: 20px;
-    color: inherit;
-    background-image: url(onlineshop.gif);
-    position: relative;
-    background-size: cover;
+    color: white;
+	background: linear-gradient(#3E4049, gray);
     overflow: hidden;
 }
-h1{
-	font-family: 'Lobster', cursive;
-}
-
-.jumbotron p {
-    margin-bottom: 15px;
-    font-size: 16px;
-    font-weight: 400px;
-}
-#howitworks {
+.jumbotron h1 {
+	font-family: 'Pacifico', cursive;
 	text-align: center;
 }
-#step1 {
-	padding-top: 20px;
-	background-color: #FE9A2E;
+img {
+    width: 100%;
+    height: auto;
 }
-#step2 {
-	padding-top: 20px;
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#story1 {
+	color: white;
+	background-color: purple;
+	height: 200px;
+}
+#story2 {
+	color: white;
+	background-color: yellow;
+	height: 200px;
+}
+#stories2 {
+	color: white;
 	background-color: teal;
-}
-#step3 {
-	padding-top: 20px;
-	background-color: #FE642E;
-}
-#text{
-	background-color: #F6E3CE;
-	opacity: 0.8;
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: gray;
-    background-color: black;
 }

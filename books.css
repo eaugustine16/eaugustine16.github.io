@@ -1,0 +1,23 @@
+body {
+	padding-top: 20px;
+	background-image: url(hexagons.png);
+	background-position: center;
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 18px;
+}
+.container-fluid {
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar {
+    border-radius: 0px;
+}
+h1{
+	font-family: 'Pacifico', cursive;
+}
+.thumbnail > img { 
+  height: 200px;
+  width: 150px;
+}
